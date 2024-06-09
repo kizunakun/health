@@ -139,6 +139,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(label1);
             Name = "Tentangkami";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Tentang Kami";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

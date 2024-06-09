@@ -143,6 +143,7 @@
             Controls.Add(txtPassword);
             Controls.Add(txtUsername);
             Name = "Loginform";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Loginform";
             ResumeLayout(false);
             PerformLayout();

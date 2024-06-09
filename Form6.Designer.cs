@@ -105,6 +105,7 @@
             Controls.Add(Skor);
             Controls.Add(LabelSkor);
             Name = "HasilSkor";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Hasil Skor";
             Load += HasilSkor_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

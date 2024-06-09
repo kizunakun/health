@@ -72,6 +72,7 @@
             Controls.Add(Logoutbutton1);
             Controls.Add(Tombolmulai1);
             Name = "Mulaites1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Mulai Tes";
             ResumeLayout(false);
         }

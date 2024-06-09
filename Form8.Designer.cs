@@ -207,6 +207,7 @@
             Controls.Add(btnFact);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Beranda";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Beranda";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
