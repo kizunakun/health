@@ -1,6 +1,6 @@
 ﻿namespace health
 {
-    partial class Form9
+    partial class Tentangkami
     {
         /// <summary>
         /// Required designer variable.
@@ -123,7 +123,7 @@
             label3.TextAlign = ContentAlignment.TopCenter;
             label3.Click += label3_Click;
             // 
-            // Form9
+            // Tentangkami
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -138,8 +138,8 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
-            Name = "Form9";
-            Text = "Form9";
+            Name = "Tentangkami";
+            Text = "Tentang Kami";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();

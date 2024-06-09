@@ -82,6 +82,7 @@
             btnAbout.TabIndex = 3;
             btnAbout.Text = "Tentang kami";
             btnAbout.UseVisualStyleBackColor = false;
+            btnAbout.Click += btnAbout_Click;
             // 
             // btnGabung
             // 
