@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Interpretasi Skor:
+
+15-25 poin: Kesehatan mental Anda terlihat cukup baik.
+26-35 poin: Anda mungkin mengalami tingkat stres atau kecemasan yang moderat
+36-45 poin: Tingkat stres atau kecemasan Anda cukup tinggi. 
+46-60 poin: Anda mungkin mengalami stres atau kecemasan yang sangat tinggi.
+</value>
+  </data>
 </root>
