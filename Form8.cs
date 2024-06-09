@@ -36,7 +36,9 @@ namespace health
 
         private void btnGabung_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Loginform frm1 = new Loginform();
+            frm1.ShowDialog();
         }
 
         private void label1_Click(object sender, EventArgs e)
