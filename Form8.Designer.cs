@@ -1,6 +1,6 @@
 ﻿namespace health
 {
-    partial class Form8
+    partial class Beranda
     {
         /// <summary>
         /// Required designer variable.
@@ -70,6 +70,7 @@
             btnGabung.TabIndex = 4;
             btnGabung.Text = "Gabung";
             btnGabung.UseVisualStyleBackColor = true;
+            btnGabung.Click += btnGabung_Click;
             // 
             // btnStart
             // 
@@ -81,7 +82,7 @@
             btnStart.UseVisualStyleBackColor = true;
             btnStart.Click += btnStart_Click;
             // 
-            // Form8
+            // Beranda
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -91,8 +92,8 @@
             Controls.Add(btnAbout);
             Controls.Add(btnFact);
             Controls.Add(label1);
-            Name = "Form8";
-            Text = "Form8";
+            Name = "Beranda";
+            Text = "Beranda";
             ResumeLayout(false);
             PerformLayout();
         }

@@ -30,6 +30,7 @@
         {
             Tombolmulai1 = new Button();
             Logoutbutton1 = new Button();
+            btnBeranda = new Button();
             SuspendLayout();
             // 
             // Tombolmulai1
@@ -52,11 +53,22 @@
             Logoutbutton1.UseVisualStyleBackColor = true;
             Logoutbutton1.Click += Logoutbutton1_Click;
             // 
+            // btnBeranda
+            // 
+            btnBeranda.Location = new Point(12, 12);
+            btnBeranda.Name = "btnBeranda";
+            btnBeranda.Size = new Size(75, 23);
+            btnBeranda.TabIndex = 2;
+            btnBeranda.Text = "Beranda";
+            btnBeranda.UseVisualStyleBackColor = true;
+            btnBeranda.Click += btnBeranda_Click;
+            // 
             // Mulaites1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnBeranda);
             Controls.Add(Logoutbutton1);
             Controls.Add(Tombolmulai1);
             Name = "Mulaites1";
@@ -68,5 +80,6 @@
 
         private Button Tombolmulai1;
         private Button Logoutbutton1;
+        private Button btnBeranda;
     }
 }

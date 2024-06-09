@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace health
 {
-    public partial class Form8 : Form
+    public partial class Beranda : Form
     {
-        public Form8()
+        public Beranda()
         {
             InitializeComponent();
         }
@@ -32,6 +32,11 @@ namespace health
             this.Hide();
             Loginform frm1 = new Loginform();
             frm1.ShowDialog();
+        }
+
+        private void btnGabung_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -34,5 +34,12 @@ namespace health
             Loginform frm1 = new Loginform();
             frm1.ShowDialog();
         }
+
+        private void btnBeranda_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Beranda frm1 = new Beranda();
+            frm1.ShowDialog();
+        }
     }
 }
