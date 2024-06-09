@@ -60,5 +60,12 @@ namespace health
         {
 
         }
+
+        private void btnAbout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Tentangkami frm1 = new Tentangkami();
+            frm1.ShowDialog();
+        }
     }
 }
