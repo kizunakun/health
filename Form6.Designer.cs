@@ -55,7 +55,7 @@
             // 
             // Berandabutton1
             // 
-            Berandabutton1.Location = new Point(90, 128);
+            Berandabutton1.Location = new Point(374, 316);
             Berandabutton1.Name = "Berandabutton1";
             Berandabutton1.Size = new Size(75, 23);
             Berandabutton1.TabIndex = 2;
@@ -67,6 +67,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Mental_Health_Background;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(Berandabutton1);
             Controls.Add(Skor);
