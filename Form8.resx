@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Kesehatan mental adalah pondasi dari kesejahteraan keseluruhan. Mulailah perjalanan Anda untuk memahami diri sendiri hari ini.
+Pemeriksaan online adalah salah satu cara tercepat dan termudah untuk menentukan
+apakah Anda mengalami gejala suatu kondisi kesehatan mental.
+</value>
+  </data>
 </root>

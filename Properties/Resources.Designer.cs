@@ -63,6 +63,16 @@ namespace health.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap abstrak {
+            get {
+                object obj = ResourceManager.GetObject("abstrak", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mental_Health_Background {
             get {
                 object obj = ResourceManager.GetObject("Mental Health Background", resourceCulture);
@@ -76,6 +86,16 @@ namespace health.Properties {
         internal static System.Drawing.Bitmap mntll {
             get {
                 object obj = ResourceManager.GetObject("mntll", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap S__1_ {
+            get {
+                object obj = ResourceManager.GetObject("S (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

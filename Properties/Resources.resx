@@ -124,4 +124,10 @@
   <data name="mntll" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mntll.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="S (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstrak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abstrak.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
