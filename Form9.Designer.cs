@@ -36,6 +36,7 @@
             pictureBox5 = new PictureBox();
             label2 = new Label();
             label3 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -123,6 +124,18 @@
             label3.TextAlign = ContentAlignment.TopCenter;
             label3.Click += label3_Click;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.FromArgb(192, 192, 255);
+            button1.Font = new Font("Segoe UI", 9F);
+            button1.Location = new Point(24, 24);
+            button1.Name = "button1";
+            button1.Size = new Size(82, 30);
+            button1.TabIndex = 8;
+            button1.Text = "Kembali";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // Tentangkami
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -130,6 +143,7 @@
             BackgroundImage = Properties.Resources.Mental_Health_Background;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(pictureBox5);
@@ -138,6 +152,7 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(label1);
+            ImeMode = ImeMode.Off;
             Name = "Tentangkami";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Tentang Kami";
@@ -160,5 +175,6 @@
         private PictureBox pictureBox5;
         private Label label2;
         private Label label3;
+        private Button button1;
     }
 }

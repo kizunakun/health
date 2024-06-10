@@ -67,5 +67,10 @@ namespace health
             Tentangkami frm1 = new Tentangkami();
             frm1.ShowDialog();
         }
+
+        private void btnFact_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

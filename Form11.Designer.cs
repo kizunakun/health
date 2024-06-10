@@ -1,6 +1,6 @@
 ﻿namespace health
 {
-    partial class Pelajari
+    partial class Form11
     {
         /// <summary>
         /// Required designer variable.
@@ -28,51 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            flowLayoutPanel1 = new FlowLayoutPanel();
             label1 = new Label();
+            btnBackhome = new Button();
             SuspendLayout();
-            // 
-            // flowLayoutPanel1
-            // 
-            flowLayoutPanel1.BackColor = Color.LightSkyBlue;
-            flowLayoutPanel1.Dock = DockStyle.Top;
-            flowLayoutPanel1.Location = new Point(0, 0);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(800, 53);
-            flowLayoutPanel1.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.Transparent;
-            label1.Location = new Point(351, 175);
+            label1.Location = new Point(73, 56);
             label1.Name = "label1";
-            label1.Size = new Size(307, 30);
-            label1.TabIndex = 1;
-            label1.Text = "\"Memahami Kesehatan Mental\"";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.Size = new Size(240, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Mengapa kesehatan mental sangat penting?";
             // 
-            // Pelajari
+            // btnBackhome
+            // 
+            btnBackhome.Location = new Point(12, 12);
+            btnBackhome.Name = "btnBackhome";
+            btnBackhome.Size = new Size(75, 23);
+            btnBackhome.TabIndex = 1;
+            btnBackhome.Text = "Kembali";
+            btnBackhome.UseVisualStyleBackColor = true;
+            btnBackhome.Click += btnBackhome_Click;
+            // 
+            // Form11
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Mental_Health_Background;
-            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnBackhome);
             Controls.Add(label1);
-            Controls.Add(flowLayoutPanel1);
-            FormBorderStyle = FormBorderStyle.None;
-            Name = "Pelajari";
-            Text = "Form10";
-            Load += Form10_Load;
+            Name = "Form11";
+            Text = "Form11";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private FlowLayoutPanel flowLayoutPanel1;
         private Label label1;
+        private Button btnBackhome;
     }
 }

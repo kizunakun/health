@@ -71,6 +71,7 @@
             btnFact.TabIndex = 2;
             btnFact.Text = "Pelajari Tentang Kesehatan Mental";
             btnFact.UseVisualStyleBackColor = false;
+            btnFact.Click += btnFact_Click;
             // 
             // btnAbout
             // 
