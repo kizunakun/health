@@ -33,6 +33,7 @@
             Skor = new Label();
             Berandabutton1 = new Button();
             pictureBox1 = new PictureBox();
+            labelSaran = new Label();
             label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -81,6 +82,15 @@
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
+            // labelSaran
+            // 
+            labelSaran.AutoSize = true;
+            labelSaran.Location = new Point(195, 351);
+            labelSaran.Name = "labelSaran";
+            labelSaran.Size = new Size(36, 15);
+            labelSaran.TabIndex = 5;
+            labelSaran.Text = "Saran";
+            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -99,6 +109,7 @@
             BackgroundImage = Properties.Resources.Mental_Health_Background;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(labelSaran);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(Berandabutton1);
@@ -119,6 +130,7 @@
         private Label Skor;
         private Button Berandabutton1;
         private PictureBox pictureBox1;
+        private Label labelSaran;
         private Label label1;
     }
 }

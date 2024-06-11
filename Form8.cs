@@ -30,7 +30,7 @@ namespace health
         private void btnStart_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Loginform frm1 = new Loginform();
+            Mulaites1 frm1 = new Mulaites1();
             frm1.ShowDialog();
         }
 

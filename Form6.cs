@@ -23,6 +23,32 @@ namespace health
         private void HasilSkor_Load(object sender, EventArgs e)
         {
             Skor.Text = previousScore.ToString();
+
+            // Logika untuk menampilkan saran berdasarkan skor
+            string saran;
+            if (previousScore >= 46 && previousScore <= 60)
+            {
+                saran = "Oh no, anda mungkin mengalami stress atau kecemasan yang sangat tinggi";
+            }
+            else if (previousScore >= 36 && previousScore < 45)
+            {
+                saran = "Waduh, tingkat stress atau kecemasan anda cukup tinggi";
+            }
+            else if (previousScore >= 26 && previousScore < 35)
+            {
+                saran = "Hmm, sepertinya anda mengalami stress atau kecemasan yang moderat";
+            }
+            else if (previousScore >= 15 && previousScore < 25)
+            {
+                  saran = "Well, kesehatan mental anda cukup baik";
+            }
+            else
+            {
+                saran = "Invalid score! Jawaban harus terisi";
+            }
+
+            // Tampilkan saran di labelSaran
+            labelSaran.Text = saran;
         }
 
         private void label1_Click(object sender, EventArgs e)
