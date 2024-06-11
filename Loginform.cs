@@ -52,7 +52,7 @@ namespace health
 
                     MessageBox.Show("Login Successful!");
                     this.Hide();
-                    Mulaites1 frm2 = new Mulaites1();
+                    Beranda frm2 = new Beranda();
                     frm2.ShowDialog();
 
                 }
