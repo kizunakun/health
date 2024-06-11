@@ -70,7 +70,9 @@ namespace health
 
         private void btnFact_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Pelajari frm2 = new Pelajari();
+            frm2.ShowDialog();
         }
     }
 }

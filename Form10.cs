@@ -21,5 +21,12 @@ namespace health
         {
 
         }
+
+        private void Submit_Click(object sender, EventArgs e)
+        {
+            Beranda frm1 = new Beranda();
+            frm1.ShowDialog();
+            this.Hide();
+        }
     }
 }

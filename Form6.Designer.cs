@@ -28,13 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HasilSkor));
             LabelSkor = new Label();
             Skor = new Label();
             Berandabutton1 = new Button();
             pictureBox1 = new PictureBox();
             labelSaran = new Label();
-            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -43,7 +41,7 @@
             LabelSkor.AutoSize = true;
             LabelSkor.BackColor = SystemColors.ButtonHighlight;
             LabelSkor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LabelSkor.Location = new Point(327, 307);
+            LabelSkor.Location = new Point(320, 240);
             LabelSkor.Name = "LabelSkor";
             LabelSkor.Size = new Size(88, 21);
             LabelSkor.TabIndex = 0;
@@ -55,7 +53,7 @@
             Skor.AutoSize = true;
             Skor.BackColor = SystemColors.ButtonHighlight;
             Skor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Skor.Location = new Point(438, 307);
+            Skor.Location = new Point(424, 240);
             Skor.Name = "Skor";
             Skor.Size = new Size(19, 21);
             Skor.TabIndex = 1;
@@ -84,23 +82,15 @@
             // 
             // labelSaran
             // 
+            labelSaran.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             labelSaran.AutoSize = true;
-            labelSaran.Location = new Point(195, 351);
+            labelSaran.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            labelSaran.Location = new Point(359, 288);
             labelSaran.Name = "labelSaran";
-            labelSaran.Size = new Size(36, 15);
+            labelSaran.Size = new Size(63, 25);
             labelSaran.TabIndex = 5;
             labelSaran.Text = "Saran";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(166, 165);
-            label1.Name = "label1";
-            label1.Size = new Size(518, 102);
-            label1.TabIndex = 4;
-            label1.Text = resources.GetString("label1.Text");
+            labelSaran.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // HasilSkor
             // 
@@ -110,7 +100,6 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(labelSaran);
-            Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(Berandabutton1);
             Controls.Add(Skor);
@@ -131,6 +120,5 @@
         private Button Berandabutton1;
         private PictureBox pictureBox1;
         private Label labelSaran;
-        private Label label1;
     }
 }
