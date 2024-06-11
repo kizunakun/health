@@ -117,4 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Definisi Kesehatan Mental:
+Kesehatan mental merujuk pada kondisi kesejahteraan emosional, psikologis, dan sosial seseorang.  Ini mempengaruhi bagaimana seseorang berpikir, merasa, dan berperilaku. Kesehatan mental juga menentukan bagaimana seseorang menangani stres, berhubungan dengan orang lain, dan membuat keputusan.  Ini adalah aspek penting dari keseluruhan kesehatan individu.
+</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>Pentingnya Kesehatan Mental:
+
+1. Kualitas Hidup: Kesehatan mental yang baik berkontribusi pada kualitas hidup yang lebih baik, kebahagiaan, dan kepuasan.
+2. Fungsi Harian: Memungkinkan individu untuk berfungsi efektif dalam kehidupan sehari-hari, baik di tempat kerja, sekolah, maupun di rumah.
+3. Kesehatan Fisik: Kesehatan mental yang baik seringkali terkait dengan kesehatan fisik yang baik, karena stres dan masalah emosional dapat mempengaruhi kondisi fisik.
+4. Hubungan Sosial: Mendorong hubungan interpersonal yang sehat dan kemampuan untuk berinteraksi dengan baik dengan orang lain.
+5. Produktivitas: Meningkatkan produktivitas dan performa di tempat kerja atau dalam aktivitas lainnya.</value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>Manfaat Tes Kesehatan Mental:
+
+1. Deteksi Dini: Membantu dalam mendeteksi masalah kesehatan mental sejak dini, sehingga dapat dilakukan intervensi lebih cepat.
+2. Perawatan yang Tepat: Memastikan bahwa individu menerima perawatan dan dukungan yang sesuai dengan kondisi mereka.
+3. Pengurangan Stigma: Meningkatkan kesadaran dan pemahaman tentang kesehatan mental, yang dapat membantu mengurangi stigma terkait gangguan mental.
+4. Pemantauan Perkembangan: Memungkinkan individu untuk memantau kondisi kesehatan mental mereka dari waktu ke waktu.
+5. Penentuan Strategi Koping: Membantu individu mengidentifikasi strategi koping yang efektif untuk mengelola stres dan emosi negatif.</value>
+  </data>
 </root>
