@@ -38,5 +38,10 @@ namespace health
             Beranda form1 = new Beranda();
             form1.ShowDialog();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

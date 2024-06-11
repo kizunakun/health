@@ -118,16 +118,52 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Mental Health Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mental Health Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="syahla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\syahla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mntll" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mntll.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tiaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tiaa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="syhla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\syhla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yani.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abstrak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abstrak.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="S (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\S (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="abstrak" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\abstrak.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yni.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2024-06-11 114509" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2024-06-11 114509.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mntll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mntll.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mental Health Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mental Health Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ayu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ayu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1_20240611_102646_0000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_20240611_102646_0000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ynii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ynii.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ynii1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ynii1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

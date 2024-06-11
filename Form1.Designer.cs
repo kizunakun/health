@@ -117,20 +117,23 @@
             // 
             // Pertanyaan1
             // 
+            Pertanyaan1.BackColor = Color.Lavender;
             Pertanyaan1.Controls.Add(Hampirselalu1);
             Pertanyaan1.Controls.Add(Sering1);
             Pertanyaan1.Controls.Add(P1);
             Pertanyaan1.Controls.Add(Tidakpernah1);
             Pertanyaan1.Controls.Add(Kadang1);
+            Pertanyaan1.Font = new Font("Segoe UI", 9F);
             Pertanyaan1.Location = new Point(12, 12);
             Pertanyaan1.Name = "Pertanyaan1";
-            Pertanyaan1.Size = new Size(576, 142);
+            Pertanyaan1.Size = new Size(619, 142);
             Pertanyaan1.TabIndex = 6;
             Pertanyaan1.TabStop = false;
             Pertanyaan1.Text = "Pertanyaan 1";
             // 
             // Pertanyaan2
             // 
+            Pertanyaan2.BackColor = Color.Lavender;
             Pertanyaan2.Controls.Add(Hampirselalu2);
             Pertanyaan2.Controls.Add(Sering2);
             Pertanyaan2.Controls.Add(Kadang2);
@@ -138,7 +141,7 @@
             Pertanyaan2.Controls.Add(P2);
             Pertanyaan2.Location = new Point(12, 160);
             Pertanyaan2.Name = "Pertanyaan2";
-            Pertanyaan2.Size = new Size(576, 141);
+            Pertanyaan2.Size = new Size(619, 141);
             Pertanyaan2.TabIndex = 7;
             Pertanyaan2.TabStop = false;
             Pertanyaan2.Text = "Pertanyaan 2";
@@ -189,6 +192,7 @@
             // 
             // Pertanyaan3
             // 
+            Pertanyaan3.BackColor = Color.Lavender;
             Pertanyaan3.Controls.Add(Hampirselalu3);
             Pertanyaan3.Controls.Add(Sering3);
             Pertanyaan3.Controls.Add(Kadang3);
@@ -196,7 +200,7 @@
             Pertanyaan3.Controls.Add(P3);
             Pertanyaan3.Location = new Point(12, 307);
             Pertanyaan3.Name = "Pertanyaan3";
-            Pertanyaan3.Size = new Size(576, 141);
+            Pertanyaan3.Size = new Size(619, 141);
             Pertanyaan3.TabIndex = 8;
             Pertanyaan3.TabStop = false;
             Pertanyaan3.Text = "Pertanyaan 3";
@@ -256,19 +260,24 @@
             // 
             // Swap1
             // 
-            Swap1.Location = new Point(506, 454);
+            Swap1.BackColor = SystemColors.ActiveCaption;
+            Swap1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            Swap1.ForeColor = SystemColors.ButtonHighlight;
+            Swap1.Location = new Point(544, 455);
             Swap1.Name = "Swap1";
-            Swap1.Size = new Size(82, 23);
+            Swap1.Size = new Size(87, 33);
             Swap1.TabIndex = 9;
             Swap1.Text = "Selanjutnya";
-            Swap1.UseVisualStyleBackColor = true;
+            Swap1.UseVisualStyleBackColor = false;
             Swap1.Click += Swap1_Click;
             // 
             // Quest1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 488);
+            BackgroundImage = Properties.Resources.Mental_Health_Background;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(643, 490);
             Controls.Add(Swap1);
             Controls.Add(Pertanyaan3);
             Controls.Add(Pertanyaan2);

@@ -54,16 +54,20 @@
             // 
             // Swap2
             // 
-            Swap2.Location = new Point(506, 454);
+            Swap2.BackColor = SystemColors.ActiveCaption;
+            Swap2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            Swap2.ForeColor = SystemColors.ButtonHighlight;
+            Swap2.Location = new Point(503, 452);
             Swap2.Name = "Swap2";
-            Swap2.Size = new Size(82, 23);
+            Swap2.Size = new Size(87, 32);
             Swap2.TabIndex = 13;
             Swap2.Text = "Selanjutnya";
-            Swap2.UseVisualStyleBackColor = true;
+            Swap2.UseVisualStyleBackColor = false;
             Swap2.Click += Swap2_Click;
             // 
             // Pertanyaan6
             // 
+            Pertanyaan6.BackColor = Color.Lavender;
             Pertanyaan6.Controls.Add(Hampirselalu6);
             Pertanyaan6.Controls.Add(Sering6);
             Pertanyaan6.Controls.Add(Kadang6);
@@ -132,6 +136,7 @@
             // 
             // Pertanyaan5
             // 
+            Pertanyaan5.BackColor = Color.Lavender;
             Pertanyaan5.Controls.Add(Hampirselalu5);
             Pertanyaan5.Controls.Add(Sering5);
             Pertanyaan5.Controls.Add(Kadang5);
@@ -199,6 +204,7 @@
             // 
             // Pertanyaan4
             // 
+            Pertanyaan4.BackColor = Color.Lavender;
             Pertanyaan4.Controls.Add(Hampirselalu4);
             Pertanyaan4.Controls.Add(Sering4);
             Pertanyaan4.Controls.Add(P4);
@@ -268,7 +274,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 488);
+            BackgroundImage = Properties.Resources.Mental_Health_Background;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(604, 488);
             Controls.Add(Swap2);
             Controls.Add(Pertanyaan6);
             Controls.Add(Pertanyaan5);

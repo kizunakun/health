@@ -37,6 +37,9 @@
             label2 = new Label();
             label3 = new Label();
             button1 = new Button();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -58,6 +61,8 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackgroundImage = Properties.Resources.ayu;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Location = new Point(62, 94);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(120, 122);
@@ -66,6 +71,8 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackgroundImage = Properties.Resources.Screenshot_2024_06_11_114509;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.Location = new Point(324, 94);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(120, 122);
@@ -74,6 +81,8 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.BackgroundImage = Properties.Resources.syahla;
+            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox3.Location = new Point(609, 94);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(120, 122);
@@ -82,6 +91,8 @@
             // 
             // pictureBox4
             // 
+            pictureBox4.BackgroundImage = Properties.Resources.tiaa;
+            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox4.Location = new Point(193, 273);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(120, 122);
@@ -91,9 +102,11 @@
             // 
             // pictureBox5
             // 
-            pictureBox5.Location = new Point(465, 273);
+            pictureBox5.BackgroundImage = Properties.Resources.ynii1;
+            pictureBox5.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox5.Location = new Point(465, 265);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(120, 122);
+            pictureBox5.Size = new Size(120, 130);
             pictureBox5.TabIndex = 5;
             pictureBox5.TabStop = false;
             // 
@@ -127,14 +140,52 @@
             // button1
             // 
             button1.BackColor = Color.FromArgb(192, 192, 255);
-            button1.Font = new Font("Segoe UI", 9F);
-            button1.Location = new Point(24, 24);
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Location = new Point(32, 408);
             button1.Name = "button1";
             button1.Size = new Size(82, 30);
             button1.TabIndex = 8;
             button1.Text = "Kembali";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(442, 398);
+            label4.Name = "label4";
+            label4.Size = new Size(168, 17);
+            label4.TabIndex = 9;
+            label4.Text = "ismayani2605@gmail.com";
+            label4.TextAlign = ContentAlignment.TopCenter;
+            label4.Click += label4_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(46, 219);
+            label5.Name = "label5";
+            label5.Size = new Size(152, 17);
+            label5.TabIndex = 10;
+            label5.Text = "purbayuuu@gmail.com";
+            label5.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(294, 219);
+            label6.Name = "label6";
+            label6.Size = new Size(181, 17);
+            label6.TabIndex = 11;
+            label6.Text = "fathanmuharrik@gmail.com";
+            label6.TextAlign = ContentAlignment.TopCenter;
             // 
             // Tentangkami
             // 
@@ -143,6 +194,9 @@
             BackgroundImage = Properties.Resources.Mental_Health_Background;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -176,5 +230,8 @@
         private Label label2;
         private Label label3;
         private Button button1;
+        private Label label4;
+        private Label label5;
+        private Label label6;
     }
 }

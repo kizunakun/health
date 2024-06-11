@@ -54,16 +54,20 @@
             // 
             // Submit
             // 
-            Submit.Location = new Point(506, 454);
+            Submit.BackColor = SystemColors.ActiveCaption;
+            Submit.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            Submit.ForeColor = SystemColors.ButtonHighlight;
+            Submit.Location = new Point(557, 450);
             Submit.Name = "Submit";
-            Submit.Size = new Size(82, 23);
+            Submit.Size = new Size(79, 33);
             Submit.TabIndex = 21;
             Submit.Text = "Selesaikan";
-            Submit.UseVisualStyleBackColor = true;
+            Submit.UseVisualStyleBackColor = false;
             Submit.Click += Submit_Click;
             // 
             // Pertanyaan15
             // 
+            Pertanyaan15.BackColor = Color.Lavender;
             Pertanyaan15.Controls.Add(Hampirselalu15);
             Pertanyaan15.Controls.Add(Sering15);
             Pertanyaan15.Controls.Add(Kadang15);
@@ -131,6 +135,7 @@
             // 
             // Pertanyaan14
             // 
+            Pertanyaan14.BackColor = Color.Lavender;
             Pertanyaan14.Controls.Add(Hampirselalu14);
             Pertanyaan14.Controls.Add(Sering14);
             Pertanyaan14.Controls.Add(Kadang14);
@@ -198,6 +203,7 @@
             // 
             // Pertanyaan13
             // 
+            Pertanyaan13.BackColor = Color.Lavender;
             Pertanyaan13.Controls.Add(Hampirselalu13);
             Pertanyaan13.Controls.Add(Sering13);
             Pertanyaan13.Controls.Add(P13);
@@ -267,7 +273,9 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 488);
+            BackgroundImage = Properties.Resources.Mental_Health_Background;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(649, 488);
             Controls.Add(Submit);
             Controls.Add(Pertanyaan15);
             Controls.Add(Pertanyaan14);

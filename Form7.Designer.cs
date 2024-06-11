@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mulaites1));
             Tombolmulai1 = new Button();
             Logoutbutton1 = new Button();
             btnBeranda = new Button();
@@ -35,39 +36,50 @@
             // 
             // Tombolmulai1
             // 
-            Tombolmulai1.Location = new Point(265, 100);
+            Tombolmulai1.BackColor = SystemColors.ActiveCaption;
+            Tombolmulai1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Tombolmulai1.ForeColor = SystemColors.ControlLightLight;
+            Tombolmulai1.Location = new Point(283, 107);
             Tombolmulai1.Name = "Tombolmulai1";
-            Tombolmulai1.Size = new Size(75, 23);
+            Tombolmulai1.Size = new Size(98, 49);
             Tombolmulai1.TabIndex = 0;
             Tombolmulai1.Text = "Mulai Tes";
-            Tombolmulai1.UseVisualStyleBackColor = true;
+            Tombolmulai1.UseVisualStyleBackColor = false;
             Tombolmulai1.Click += Tombolmulai1_Click;
             // 
             // Logoutbutton1
             // 
-            Logoutbutton1.Location = new Point(522, 12);
+            Logoutbutton1.BackColor = SystemColors.ControlLight;
+            Logoutbutton1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            Logoutbutton1.ForeColor = SystemColors.ButtonHighlight;
+            Logoutbutton1.Location = new Point(568, 12);
             Logoutbutton1.Name = "Logoutbutton1";
-            Logoutbutton1.Size = new Size(75, 23);
+            Logoutbutton1.Size = new Size(84, 23);
             Logoutbutton1.TabIndex = 1;
             Logoutbutton1.Text = "Log Out";
-            Logoutbutton1.UseVisualStyleBackColor = true;
+            Logoutbutton1.UseVisualStyleBackColor = false;
             Logoutbutton1.Click += Logoutbutton1_Click;
             // 
             // btnBeranda
             // 
+            btnBeranda.BackColor = SystemColors.ControlLight;
+            btnBeranda.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnBeranda.ForeColor = SystemColors.ButtonHighlight;
             btnBeranda.Location = new Point(12, 12);
             btnBeranda.Name = "btnBeranda";
             btnBeranda.Size = new Size(75, 23);
             btnBeranda.TabIndex = 2;
             btnBeranda.Text = "Beranda";
-            btnBeranda.UseVisualStyleBackColor = true;
+            btnBeranda.UseVisualStyleBackColor = false;
             btnBeranda.Click += btnBeranda_Click;
             // 
             // Mulaites1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(669, 369);
             Controls.Add(btnBeranda);
             Controls.Add(Logoutbutton1);
             Controls.Add(Tombolmulai1);
