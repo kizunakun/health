@@ -41,9 +41,10 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.FromArgb(255, 192, 192);
+            label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(169, 15);
             label1.Name = "label1";
-            label1.Size = new Size(397, 25);
+            label1.Size = new Size(428, 25);
             label1.TabIndex = 0;
             label1.Text = "\"MEMAHAMI TENTANG KESEHATAN MENTAL\"";
             label1.TextAlign = ContentAlignment.MiddleRight;
@@ -120,7 +121,7 @@
             Controls.Add(label1);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             Name = "Pelajari";
             Text = "Form10";
             Load += Form10_Load;

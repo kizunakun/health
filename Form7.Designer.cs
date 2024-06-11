@@ -49,9 +49,9 @@
             // 
             // Logoutbutton1
             // 
-            Logoutbutton1.BackColor = SystemColors.ControlLight;
+            Logoutbutton1.BackColor = Color.LightSkyBlue;
             Logoutbutton1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            Logoutbutton1.ForeColor = SystemColors.ButtonHighlight;
+            Logoutbutton1.ForeColor = SystemColors.ButtonFace;
             Logoutbutton1.Location = new Point(568, 12);
             Logoutbutton1.Name = "Logoutbutton1";
             Logoutbutton1.Size = new Size(84, 23);
@@ -62,7 +62,7 @@
             // 
             // btnBeranda
             // 
-            btnBeranda.BackColor = SystemColors.ControlLight;
+            btnBeranda.BackColor = Color.LightSkyBlue;
             btnBeranda.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnBeranda.ForeColor = SystemColors.ButtonHighlight;
             btnBeranda.Location = new Point(12, 12);

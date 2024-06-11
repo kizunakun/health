@@ -40,10 +40,10 @@
             // 
             LabelSkor.AutoSize = true;
             LabelSkor.BackColor = SystemColors.ButtonHighlight;
-            LabelSkor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            LabelSkor.Location = new Point(320, 240);
+            LabelSkor.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            LabelSkor.Location = new Point(282, 198);
             LabelSkor.Name = "LabelSkor";
-            LabelSkor.Size = new Size(88, 21);
+            LabelSkor.Size = new Size(132, 32);
             LabelSkor.TabIndex = 0;
             LabelSkor.Text = "Skor Anda";
             LabelSkor.Click += label1_Click;
@@ -52,10 +52,10 @@
             // 
             Skor.AutoSize = true;
             Skor.BackColor = SystemColors.ButtonHighlight;
-            Skor.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Skor.Location = new Point(424, 240);
+            Skor.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Skor.Location = new Point(444, 198);
             Skor.Name = "Skor";
-            Skor.Size = new Size(19, 21);
+            Skor.Size = new Size(27, 32);
             Skor.TabIndex = 1;
             Skor.Text = "x";
             Skor.Click += Skor_Click;
@@ -85,7 +85,7 @@
             labelSaran.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             labelSaran.AutoSize = true;
             labelSaran.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            labelSaran.Location = new Point(359, 288);
+            labelSaran.Location = new Point(257, 277);
             labelSaran.Name = "labelSaran";
             labelSaran.Size = new Size(63, 25);
             labelSaran.TabIndex = 5;
