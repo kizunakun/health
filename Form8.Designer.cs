@@ -32,7 +32,6 @@
             label1 = new Label();
             btnFact = new Button();
             btnAbout = new Button();
-            btnGabung = new Button();
             btnStart = new Button();
             panel1 = new Panel();
             panel2 = new Panel();
@@ -84,18 +83,6 @@
             btnAbout.Text = "Tentang kami";
             btnAbout.UseVisualStyleBackColor = false;
             btnAbout.Click += btnAbout_Click;
-            // 
-            // btnGabung
-            // 
-            btnGabung.BackColor = SystemColors.Highlight;
-            btnGabung.ForeColor = SystemColors.HighlightText;
-            btnGabung.Location = new Point(550, 45);
-            btnGabung.Name = "btnGabung";
-            btnGabung.Size = new Size(75, 23);
-            btnGabung.TabIndex = 4;
-            btnGabung.Text = "Gabung";
-            btnGabung.UseVisualStyleBackColor = false;
-            btnGabung.Click += btnGabung_Click;
             // 
             // btnStart
             // 
@@ -203,7 +190,6 @@
             Controls.Add(pictureBox1);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Controls.Add(btnGabung);
             Controls.Add(btnAbout);
             Controls.Add(btnFact);
             FormBorderStyle = FormBorderStyle.None;
@@ -223,7 +209,6 @@
         private Label label1;
         private Button btnFact;
         private Button btnAbout;
-        private Button btnGabung;
         private Button btnStart;
         private Panel panel1;
         private Panel panel2;
